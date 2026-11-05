@@ -20,3 +20,8 @@ Install the required libraries:
 pip install numpy pandas matplotlib seaborn scikit-learn
 
 Open Jupyter Notebook and run the cells from top to bottom.
+
+## Insights & Summary
+Models were evaluated using accuracy scores, classification reports (precision, recall, and F1-score), and confusion matrices.
+Because the dataset is small and clean, the reported metrics on a single train/test split serve only as an initial estimate and may be incorrect compared to real life performance.
+The analysis suggests that utilizing stratified cross-validation and hyperparameter tuning would provide a more consistent model comparison.   
